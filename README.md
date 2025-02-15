@@ -142,6 +142,7 @@ pre-commit install
 
 ## 🎯 Usage
 
+### Local Development
 1. Start the application:
 ```bash
 streamlit run app.py
@@ -153,6 +154,61 @@ streamlit run app.py
 ```bash
 python evaluate.py
 ```
+
+### Streamlit Cloud Deployment
+
+1. **Prepare Your Repository**
+   - Push your code to GitHub
+   - Ensure `requirements.txt` is up to date:
+   ```bash
+   pip freeze > requirements.txt
+   ```
+   - Create a `.streamlit/config.toml` file:
+   ```toml
+   [theme]
+   primaryColor = "#4A69A5"
+   backgroundColor = "#FFFFFF"
+   secondaryBackgroundColor = "#F5F5F5"
+   textColor = "#333333"
+   font = "Inter"
+   ```
+
+2. **Deploy on Streamlit Cloud**
+   - Go to [share.streamlit.io](https://share.streamlit.io)
+   - Sign in with your GitHub account
+   - Click "New app"
+   - Select your repository, branch, and main file (app.py)
+   - Click "Deploy"
+
+3. **Configure Secrets**
+   - In Streamlit Cloud, go to your app settings
+   - Under "Secrets", add your environment variables:
+   ```yaml
+   GOOGLE_API_KEY: "your_google_api_key"
+   OPENAI_API_KEY: "your_openai_api_key"
+   LANGSMITH_API_KEY: "your_langsmith_api_key"
+   ```
+
+4. **Advanced Settings**
+   - Python version: 3.9+
+   - Packages: All requirements will be installed automatically
+   - Memory: Request more if needed
+
+### Environment Variables
+For local development, use `.env`:
+```env
+GOOGLE_API_KEY=your_key
+OPENAI_API_KEY=your_key
+LANGSMITH_API_KEY=your_key
+```
+
+For Streamlit Cloud, use the secrets management system as shown above.
+
+### Important Notes
+- Ensure all API keys are kept secret
+- PDF documents need to be included in the repository
+- Vector DB will be rebuilt on each deployment
+- Consider storage limitations on Streamlit Cloud
 
 ## 📁 Project Structure
 
