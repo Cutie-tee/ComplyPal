@@ -13,3 +13,11 @@ pyaudio
 google-cloud-speech
 scipy
 numpy
+langchain-chroma
+openai
+fpdf
+SpeechRecognition
+gTTS
+Pillow
+python-dotenv
+audio-recorder-streamlit
