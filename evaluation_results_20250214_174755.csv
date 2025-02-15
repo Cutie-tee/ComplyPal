@@ -1,0 +1,65 @@
+question,ground_truth,rag_answer,score
+What information must providers include on high-risk AI systems?,"The name of the provider, registered trade name or registered trademark, and the address at which they can be contacted.","Providers must include the following information on high-risk AI systems:
+
+- Name of the provider
+- Registered trade name or registered trademark
+- Address at which they can be contacted",10
+What measures must providers take to protect user privacy?,"AI applications should respect and protect users' privacy, handling personal data judiciously and in compliance with relevant privacy laws and regulations.",This question cannot be answered from the given context.,2
+How long must the documentation of a high-risk AI system be kept?,For 10 years after the high-risk AI system is placed on the market or put into service.,10 years,10
+What is the role of the single point of contact?,The single point of contact shall exercise a liaison function to ensure cross-border cooperation of Member State authorities.,"The single point of contact is responsible for the following:
+- exercising a liaison function to ensure cross-border cooperation of Member State authorities and with the relevant authorities in other Member States and with the Cooperation Group referred to in Article 11 and the CSIRTs network referred to in Article 12.
+- forwarding incident notifications to the single points of contact of other affected Member States.
+- submitting a summary report to the Cooperation Group, which should be anonymised in order to preserve the confidentiality of the notifications and the identity of operators of essential services and digital service providers.",9
+What are the responsibilities of the CSIRTs network?,"The CSIRTs network is responsible for exchanging information on CSIRTs services, operations, and cooperation capabilities; discussing non-commercially sensitive information related to incidents and associated risks; exchanging and making available non-confidential information concerning individual incidents; discussing and identifying a coordinated response to incidents.","The CSIRTs network is responsible for:
+
+- exchanging information on CSIRTs' services, operations and cooperation capabilities;
+- at the request of a representative of a CSIRT from a Member State potentially affected by an incident, exchanging information on incidents and sharing best practices for incident handling;
+- contributing to the development of common methodologies and tools for incident handling;
+- promoting cooperation between CSIRTs and other relevant stakeholders, such as law enforcement authorities and industry;
+- raising awareness of cybersecurity risks and incidents among stakeholders;
+- providing support to Member States in the implementation of the NIS Directive.",8
+What is required to ensure proper incident response?,CSIRTs shall rely on an infrastructure the continuity of which is ensured. Redundant systems and backup working space shall be available.,"Incident handling requires procedures supporting the detection, analysis, containment, and response to an incident.",4
+What documentation is required for reporting incidents?,Documentation must be sufficient to demonstrate compliance with incident reporting requirements and allow for verification by authorities.,The provided context does not mention the documentation required for reporting incidents.,3
+What actions do not constitute valid consent?,"Silence, pre-ticked boxes, or inactivity","Silence, pre-ticked boxes, or inactivity do not constitute valid consent.",9
+What information should be included in the notification of a personal data breach?,"a) Nature of the breach (categories and numbers of data subjects/records affected);
+b) Contact details of the data protection officer or other contact point;
+c) Likely consequences of the breach;
+d) Measures taken or proposed to address the breach.","- Description of the nature of the personal data breach
+- Recommendations for the natural person concerned to mitigate potential adverse effects
+- Description of the likely consequences of the personal data breach
+- Description of the measures taken or proposed to be taken by the controller to address the personal data breach, including, where appropriate, measures to mitigate its possible adverse effects",8
+What are the data subject's rights under this regulation?,"Data subjects have the right to access data concerning their health, including diagnoses, examination results, assessments by treating physicians, and any treatment or interventions provided.","The data subject's rights under this regulation include the right to have their personal data erased, the right to have their personal data rectified, the right to access their personal data, and the right to transmit their personal data.",5
+What are the requirements for data protection impact assessments?,An assessment of the necessity and proportionality of the processing operations in relation to the purposes; an assessment of the risks to the rights and freedoms of data subjects; and the measures envisaged to address the risks.,"1. Where a type of processing in particular using new technologies, and taking into account the nature, scope, context and purposes of the processing, is likely to result in a high risk to the rights and freedoms of natural persons, the controller shall, prior to the processing, carry out an assessment of the impact of the envisaged processing operations on the protection of personal data.
+2. The controller shall seek the advice of the data protection officer, where designated, when carrying out a data protection impact assessment.
+3. A data protection impact assessment referred to in paragraph 1 shall in particular be required in the case of:
+(a) a systematic and extensive evaluation of personal aspects relating to natural persons which is based on automated processing, including profiling, and on which decisions are taken that have legal or similarly significant effects on natural persons;
+(b) processing on a large scale of special categories of data referred to in Article 9(1), or of personal data relating to criminal convictions and offences referred to in Article 10;
+(c) a systematic monitoring of publicly accessible areas on a large scale;
+(d) any other processing operations that are likely to result in a high risk to the rights and freedoms of data subjects, in particular because they prevent data subjects from exercising a right or using a service or a contract, or because they are carried out systematically on a large scale.",6
+What approach is used to determine the regulatory burden placed on AI systems?,A risk-based approach is used.,"The AI Act follows a risk-based approach, imposing regulatory burdens only when an AI system is likely to pose high risks to fundamental rights and safety.",10
+What is considered strictly necessary to mitigate risks posed by high-risk AI systems?,"High quality data, documentation and traceability, transparency, human oversight, accuracy, and robustness.",The provided context does not specify what is considered strictly necessary to mitigate risks posed by high-risk AI systems.,3
+What types of AI systems are considered high-risk?,"AI systems intended for use by public authorities in migration, asylum, and border control management, polygraphs, tools for detecting emotional states, and systems for assessing risks posed by individuals entering a Member State or applying for visas or asylum.","High-risk AI systems include applications in critical infrastructure, education, employment, essential services, migration, and justice.",5
+What information should be included in the technical documentation for high-risk AI systems?,"General characteristics, capabilities, limitations, algorithms, data, training, testing, validation processes, and risk management system.","The technical documentation for high-risk AI systems should contain the following information:
+
+- A general description of the AI system
+- A detailed description of the elements of the AI system
+- Detailed information about the monitoring, functioning, and control of the AI system
+- A detailed description of the risk management system in accordance with Article 9
+- A description of relevant changes made by the provider to the system through its lifecycle",7
+What obligation do AI providers have in the event of a serious incident or malfunction?,To inform national competent authorities as soon as they become aware of them.,The provider must cooperate with the competent authorities and the notified body concerned during the investigations.,4
+When is disclosure of AI interaction required?,When persons interact with an AI system or their emotions or characteristics are recognised through automated means,Disclosure of AI interaction is required when users of an emotion recognition system or a biometric categorization system inform of the operation of the system the natural persons exposed thereto.,4
+"What are the requirements for training, validation, and testing data sets?","They shall be relevant, representative, free of errors and complete. They shall have the appropriate statistical properties, including, where applicable, as regards the persons or groups of persons on which the high-risk AI system is intended to be used.","Training, validation and testing data sets shall be relevant, representative, free of errors and complete. They shall have the appropriate statistical properties, including, where applicable, as regards the persons or groups of persons on which the high-risk AI system is intended to be used. These characteristics of the data sets may be met at the level of individual data sets or a combination thereof.",10
+What must logging capabilities enable for high-risk AI systems?,Monitoring of operation and facilitation of post-market monitoring.,"The logging capabilities for high-risk AI systems must enable the monitoring of the operation of the AI system with respect to the occurrence of situations that may result in the AI system presenting a risk or lead to a substantial modification, and facilitate the post-market monitoring referred to in Article 61.",8
+What corrective actions must providers of high-risk AI systems take if they have reason to believe the system is not in conformity with this Regulation?,"Immediately take the necessary corrective actions to bring the system into conformity, withdraw it, or recall it as appropriate.","Providers of high-risk AI systems must immediately take the necessary corrective actions to bring that system into conformity, to withdraw it, to disable it, or to recall it, as appropriate.",10
+What should be included in the systems and procedures for data management?,"Data collection, analysis, labelling, storage, filtration, mining, aggregation, retention, and any other operation regarding data performed before and for the purposes of placing on the market or putting into service of high-risk AI systems.","The systems and procedures for data management should include:
+- Data collection
+- Data preparation processing operations
+- Formulation of relevant assumptions
+- Assessment of data availability, quantity, and suitability
+- Examination of possible biases
+- Identification of data gaps or shortcomings",5
+What is automation bias?,The tendency to automatically rely or over-rely on the output produced by a high-risk AI system.,"Automation bias is the tendency to automatically rely or over-rely on the output produced by a high-risk AI system, particularly for high-risk AI systems used to provide information or recommendations for decisions to be taken by natural persons.",10
+What is required for each use of a real-time remote biometric identification system in publicly accessible spaces for law enforcement purposes?,Express and specific authorization by a judicial authority or an independent administrative authority of a Member State.,"Each use of a real-time remote biometric identification system in publicly accessible spaces for law enforcement purposes requires express and specific authorization by a judicial authority or an independent administrative authority of a Member State. Such authorization should be obtained prior to the use, except in duly justified situations of urgency.",10
+
+Average RAG Score,6.96/10
+RAG Accuracy (7+ Score),56.52%

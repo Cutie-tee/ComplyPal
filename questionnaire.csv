@@ -1,0 +1,9 @@
+﻿section,question,type,required,options,description
+Data Processing,What is the primary purpose of your AI system?,textarea,true,,"Describe the main functionality and goals of your AI system"
+Data Processing,Which geographical regions do you operate in?,multiselect,true,"[""EU"", ""Other""]","Select all regions where your AI system will be deployed"
+Data Processing,What type of personal data does your system process?,multiselect,true,"[""Personal Data"", ""Biometric Data"", ""Health Data"", ""Financial Data"", ""Location Data"", ""Other""]","Select all types of data your system processes"
+Transparency,How do you ensure system transparency?,textarea,true,,"Describe your transparency measures and user communication methods"
+Transparency,Do you provide explanations for AI decisions?,radio,true,"[""Yes"", ""No"", ""In Development""]","Indicate if you provide explanations for AI system decisions"
+User Rights,How do users access their data?,textarea,true,,"Describe the process for users to access their personal data"
+User Rights,What data portability options are available?,multiselect,true,"[""Download"", ""API Access"", ""Direct Transfer"", ""None""]","Select available data portability methods"
+Risk Assessment,What mitigation measures are in place?,textarea,true,,"Describe your risk mitigation strategies"

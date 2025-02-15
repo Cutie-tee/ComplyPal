@@ -1,0 +1,102 @@
+[
+  {
+    "input": "What information must providers include on high-risk AI systems?",
+    "output": "The name of the provider, registered trade name or registered trademark, and the address at which they can be contacted.",
+    "source": "mdr.pdf"
+  },
+  {
+    "input": "What measures must providers take to protect user privacy?",
+    "output": "AI applications should respect and protect users' privacy, handling personal data judiciously and in compliance with relevant privacy laws and regulations.",
+    "source": "mdr.pdf"
+  },
+  {
+    "input": "How long must the documentation of a high-risk AI system be kept?",
+    "output": "For 10 years after the high-risk AI system is placed on the market or put into service.",
+    "source": "mdr.pdf"
+  },
+  {
+    "input": "What documentation is required for reporting incidents?",
+    "output": "Documentation must be sufficient to demonstrate compliance with incident reporting requirements and allow for verification by authorities.",
+    "source": "NIS Directive_2016.pdf"
+  },
+  {
+    "input": "What actions do not constitute valid consent?",
+    "output": "Silence, pre-ticked boxes, or inactivity",
+    "source": "gdpr.pdf"
+  },
+  {
+    "input": "What information should be included in the notification of a personal data breach?",
+    "output": "a) Nature of the breach (categories and numbers of data subjects/records affected);\nb) Contact details of the data protection officer or other contact point;\nc) Likely consequences of the breach;\nd) Measures taken or proposed to address the breach.",
+    "source": "gdpr.pdf"
+  },
+  {
+    "input": "What are the data subject's rights under this regulation?",
+    "output": "Data subjects have the right to access data concerning their health, including diagnoses, examination results, assessments by treating physicians, and any treatment or interventions provided.",
+    "source": "gdpr.pdf"
+  },
+  {
+    "input": "What are the requirements for data protection impact assessments?",
+    "output": "An assessment of the necessity and proportionality of the processing operations in relation to the purposes; an assessment of the risks to the rights and freedoms of data subjects; and the measures envisaged to address the risks.",
+    "source": "gdpr.pdf"
+  },
+  {
+    "input": "What approach is used to determine the regulatory burden placed on AI systems?",
+    "output": "A risk-based approach is used.",
+    "source": "eu_ai_act.pdf"
+  },
+  {
+    "input": "What is considered strictly necessary to mitigate risks posed by high-risk AI systems?",
+    "output": "High quality data, documentation and traceability, transparency, human oversight, accuracy, and robustness.",
+    "source": "eu_ai_act.pdf"
+  },
+  {
+    "input": "What types of AI systems are considered high-risk?",
+    "output": "AI systems intended for use by public authorities in migration, asylum, and border control management, polygraphs, tools for detecting emotional states, and systems for assessing risks posed by individuals entering a Member State or applying for visas or asylum. These include (1) biometric and biometrics-based systems (such as remote biometric identification, categorization of persons and emotion recognition systems), (2) management and operation of critical infrastructure (such as road traffic, energy supply or digital infrastructure),(3) education and vocational training (such as assessment of students in educational institutions),(4) employment and workers management (such as recruitment, performance evaluation, or task-allocation),(5) access to essential private and public services and benefits (such as credit-scoring, risk assessments in health insurance and dispatching emergency services),(6) law enforcement (such as evaluating the reliability of evidence or crime analytics),(7) migration, asylum and border control management (such as assessing the security risk of a person or the examination of applications for asylum, visa, or residence permits),(8) administration of justice and democratic processes (such as assisting in interpreting & researching facts, law, and the application of the law or for influencing elections).",
+    "source": "eu_ai_act.pdf"
+  },
+  {
+    "input": "What information should be included in the technical documentation for high-risk AI systems?",
+    "output": "General characteristics, capabilities, limitations, algorithms, data, training, testing, validation processes, and risk management system.",
+    "source": "eu_ai_act.pdf"
+  },
+  {
+    "input": "What obligation do AI providers have in the event of a serious incident or malfunction?",
+    "output": "To inform national competent authorities as soon as they become aware of them.",
+    "source": "eu_ai_act.pdf"
+  },
+  {
+    "input": "When is disclosure of AI interaction required?",
+    "output": "When persons interact with an AI system or their emotions or characteristics are recognised through automated means",
+    "source": "eu_ai_act.pdf"
+  },
+  {
+    "input": "What are the requirements for training, validation, and testing data sets?",
+    "output": "They shall be relevant, representative, free of errors and complete. They shall have the appropriate statistical properties, including, where applicable, as regards the persons or groups of persons on which the high-risk AI system is intended to be used.",
+    "source": "eu_ai_act.pdf"
+  },
+  {
+    "input": "What must logging capabilities enable for high-risk AI systems?",
+    "output": "Monitoring of operation and facilitation of post-market monitoring.",
+    "source": "eu_ai_act.pdf"
+  },
+  {
+    "input": "What corrective actions must providers of high-risk AI systems take if they have reason to believe the system is not in conformity with this Regulation?",
+    "output": "Immediately take the necessary corrective actions to bring the system into conformity, withdraw it, or recall it as appropriate.",
+    "source": "eu_ai_act.pdf"
+  },
+  {
+    "input": "What should be included in the systems and procedures for data management?",
+    "output": "Data collection, analysis, labelling, storage, filtration, mining, aggregation, retention, and any other operation regarding data performed before and for the purposes of placing on the market or putting into service of high-risk AI systems.",
+    "source": "eu_ai_act.pdf"
+  },
+  {
+    "input": "What is automation bias?",
+    "output": "The tendency to automatically rely or over-rely on the output produced by a high-risk AI system.",
+    "source": "eu_ai_act.pdf"
+  },
+  {
+    "input": "What is required for each use of a real-time remote biometric identification system in publicly accessible spaces for law enforcement purposes?",
+    "output": "Express and specific authorization by a judicial authority or an independent administrative authority of a Member State.",
+    "source": "eu_ai_act.pdf"
+  }
+]
