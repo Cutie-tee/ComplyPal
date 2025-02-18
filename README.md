@@ -50,13 +50,11 @@ Basic Setup
 # Vector DB Configuration
 CHUNK_SIZE=1000
 CHUNK_OVERLAP=200
-RETRIEVAL_K=4
+
 
 # Model Configuration
-TEMPERATURE=0.7
-TOP_P=0.8
-TOP_K=40
-MAX_OUTPUT_TOKENS=2048
+TEMPERATURE=0.5
+model - gemini-pro
 
 # File Paths
 PDF_DIR=./pdf_docs
@@ -130,20 +128,16 @@ Basic Configuration (config.py)
 # Vector DB Configuration
 CHUNK_SIZE = int(os.getenv('CHUNK_SIZE', 1000))
 CHUNK_OVERLAP = int(os.getenv('CHUNK_OVERLAP', 200))
-RETRIEVAL_K = int(os.getenv('RETRIEVAL_K', 4))
+RETRIEVAL_K = int(os.getenv('RETRIEVAL_K', 3))
 
 # Model Configuration
-GEMINI_CONFIG = {
+GEMINI_CONFIG = 
     'model': 'gemini-pro',
-    'temperature': float(os.getenv('TEMPERATURE', 0.7)),
-    'top_p': float(os.getenv('TOP_P', 0.8)),
-    'top_k': int(os.getenv('TOP_K', 40)),
-    'max_output_tokens': int(os.getenv('MAX_OUTPUT_TOKENS', 2048)),
-}
+    'temperature':0.5
 
 EMBEDDING_CONFIG = {
     'model': 'models/embedding-001',
-}
+
 
 # File Paths
 PDF_DIR = os.getenv('PDF_DIR', './pdf_docs')
@@ -151,60 +145,6 @@ CHROMA_DB_PATH = os.getenv('CHROMA_DB_PATH', './chroma_db')
 LOG_DIR = os.getenv('LOG_DIR', './logs')
 ```
 
- UI Configuration
-
-The application supports theme customization through Streamlit's configuration:
-
-```python
-# config.toml
-[theme]
-primaryColor = "#4A69A5"
-backgroundColor = "#FFFFFF"
-secondaryBackgroundColor = "#F5F5F5"
-textColor = "#333333"
-font = "Inter"
-```
-
-### Logging Configuration
-
-```python
-# logging configuration
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler(os.path.join(LOG_DIR, "app.log")),
-        logging.StreamHandler()
-    ]
-)
-```
-
-Vector Database Configuration
-
-# Vector DB Fine-tuning
-CHUNK_SIZE=1000        # Size of text chunks for processing
-CHUNK_OVERLAP=200      # Overlap between chunks
-RETRIEVAL_K=4          # Number of similar documents to retrieve
-
-# Storage Configuration
-CHROMA_DB_PATH=./chroma_db
-```
-Evaluation System
-
-The evaluation script (`evaluate.py`) provides:
-- RAG vs OpenAI response comparison
-- Scoring based on:
-  - Factual correctness
-  - Completeness
-  - Clarity
-- Detailed analytics and correlation analysis
-- CSV report generation
-
-Security Note
-
-- Ensure compliance documents are properly secured
-- API keys should be kept confidential
-- User data should be handled according to privacy regulations
 
 Contributing
 
